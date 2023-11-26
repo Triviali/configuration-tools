@@ -135,7 +135,7 @@ dfGpumem = get_data_from_excel_6()
 #     options=dfGpumem["gpuMem"].unique(),
 
 # )
-# text_search = st.text_input("Type your entry in the box below to search for a configuration.", value='')
+text_search = st.text_input("Type your entry in the box below to search for a configuration.", value='')
 # lenovo_copy = st.sidebar.button("Copy 2nd Page for Lenovo Configuration")
 # apple_copy = st.sidebar.button("Copy 2nd Page for Apple Configuraton")
 # if lenovo_copy == True:
