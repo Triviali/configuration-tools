@@ -147,9 +147,9 @@ text_search = st.text_input("Type your entry in the box below to search for a co
 #     apple_copy == False
 #     st.toast("Copied to clipboard!")
 
-dfFilter_selection = dfFilter.query(
-    "adapterIncluded == @adapter & screenCondition == @screen & keyboardCondition == @keyboard & operatingSystem == @os & battCond == @battery_condition"
-)
+#dfFilter_selection = dfFilter.query(
+#    "adapterIncluded == @adapter & screenCondition == @screen & keyboardCondition == @keyboard & operatingSystem == @os & battCond == @battery_condition"
+# )
 
 m1 = dfSearch["model"].str.contains(text_search)
 m2 = dfSearch["cpuModel"].str.contains(text_search)
