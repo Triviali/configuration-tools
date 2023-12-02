@@ -21,7 +21,7 @@ def get_data_from_excel():
         sheet_name="Sheet1",
         skiprows=0,
         usecols="C:J, Q:V",
-        nrows=100,
+        nrows=250,
     )
     return dfUser
 def get_data_from_excel_2():
@@ -31,7 +31,7 @@ def get_data_from_excel_2():
         sheet_name="Sheet1",
         skiprows=0,
         usecols="J:P",
-        nrows=100,
+        nrows=250,
     )
     return dfFilter
 def get_data_from_excel_3():
@@ -41,7 +41,7 @@ def get_data_from_excel_3():
         sheet_name="Sheet1",
         skiprows=0,
         usecols="A:D, W:Y",
-        nrows=100,
+        nrows=250,
     )
     return dfSearch
 def get_data_from_excel_4():
@@ -51,7 +51,7 @@ def get_data_from_excel_4():
         sheet_name="Sheet1",
         skiprows=0,
         usecols="Q",
-        nrows=100,
+        nrows=250,
     )
     return dfGpumake
 def get_data_from_excel_5():
@@ -61,7 +61,7 @@ def get_data_from_excel_5():
         sheet_name="Sheet1",
         skiprows=0,
         usecols="R",
-        nrows=100,        
+        nrows=250,        
     )
     return dfGpumodel
 def get_data_from_excel_6():
@@ -71,7 +71,7 @@ def get_data_from_excel_6():
         sheet_name="Sheet1",
         skiprows=0,
         usecols="S",
-        nrows=100,        
+        nrows=250,        
     )
     return dfGpumodel
 dfUser = get_data_from_excel()
