@@ -1,6 +1,6 @@
 # Triviali's Configuration Tool(s)
 
-This project is designed to improve productivity for computer technicians working on laptop systems with a WMS system that thoroughly records specifications.
+This project fetches common business laptop configurations from an excel database.
 
 # Usage
 
